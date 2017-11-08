@@ -1,4 +1,4 @@
-# Devise
+# Devise Overview
 
 An authentication gem for Rails applications. Devise is built on top of Warden, a Rack-based middleware used in authentication. Warden manages cookie-handling for user verification and ultimately, is unconnected to the Rails application. Devise is the like the authentication bridge between the application and Warden - it provides the methods, views, helpers, etc. Like has_secure_password, the built in authentication in Rails, Devise uses BCrypt for password hashing.
 
