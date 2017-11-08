@@ -62,6 +62,7 @@ should be set to the application host, not localhost.
 4. Add a views folder for devise. I recommend just going ahead with
 ```$ rails g devise:views```
 because it creates about 18 files that would take at least 18 hours to type.
+
 Files created:
 ![files_screenshot](./screenshots/devise_views.png?raw=true "Views")
 
@@ -73,20 +74,25 @@ This creates a user migration and model, a test suite for the user, and a route 
 routes.rb called `devise_for :users`.
 
 Migration (default):
+
 ![migration_scnsht](./screenshots/devise_user_migration.png)
 
 Routes created:
+
 ![routes_screenshot](./screenshots/devise_routes.png?raw=true "Routes")
 
 With that new migration file, you'll need to re-migrate.
 
 Afterwards, run your rails server and check the routes:
+
 ![sign_in_screenshot](./screenshots/devise-sign-in.png?raw=true "Views sign in")
 
 Here's the code that was generated:
+
 ![login_code](./screenshots.devise_login_code.png?raw=true)
 
 Sign up page:
+
 ![sign_up_screenshot](./screenshots/devise-sign-up.png?raw=true "views sign up")
 
 
