@@ -63,7 +63,7 @@ should be set to the application host, not localhost.
 ```$ rails g devise:views```
 because it creates about 18 files that would take at least 18 hours to type.
 
-Files created:
+**Files created:**
 
 ![files_screenshot](./screenshots/devise_views.png?raw=true "Views")
 
@@ -74,25 +74,25 @@ Files created:
 This creates a user migration and model, a test suite for the user, and a route in
 routes.rb called `devise_for :users`.
 
-Migration (default):
+**Migration (default):**
 
 ![migration_scnsht](./screenshots/devise_user_migration.png)
 
-Routes created:
+**Routes created:**
 
 ![routes_screenshot](./screenshots/devise_routes.png?raw=true "Routes")
 
-With that new migration file, you'll need to re-migrate.
+_With that new migration file, you'll need to re-migrate._
 
-Afterwards, run your rails server and check the routes:
+**Afterwards, run your rails server and check the routes:**
 
 ![sign_in_screenshot](./screenshots/devise-sign-in.png?raw=true "Views sign in")
 
-Here's the code that was generated:
+**Here's the code that was generated:**
 
 ![login_code](./screenshots/devise_login_code.png?raw=true)
 
-Sign up page:
+**Sign up page:**
 
 ![sign_up_screenshot](./screenshots/devise-sign-up.png?raw=true "views sign up")
 
@@ -118,13 +118,13 @@ Sign up page:
 
 ## Devise vs. has_secure_password
 ### Refresh on has_secure_password
-```has_secure_password``` is very customizable and built right into rails, so maintaining an updated gem is less of an issue. However, as an application grows, more and more features will need to be added and these features are opportunities for vulnerabilities.
+```has_secure_password``` is very customizable and built right into rails, so maintaining a gem isn't an issue. However, as an application grows, more and more features often need to be added and these features are opportunities for vulnerabilities.
 
 ![hsp_user_model](./screenshots/HSP_user_model?raw=true)
 ![hsp_sessions_controller](./screenshots/HSP_sessions_controller?raw=true)
 ![hsp_application_control](./screenshots/HSP_application_control?raw=true)
 
-REviews on Devise are pretty mixed - some people seem to hate it and some love it. Overall, using Devise or `has_secure_password ` is really up to you and the scale of your project.
+Reviews on Devise are pretty mixed - some people seem to hate it and some love it. Overall, using Devise or `has_secure_password ` is really up to you and the scale of your project.
 
 # Resources
 * Wiki: [https://github.com/plataformatec/devise/wiki]
