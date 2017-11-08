@@ -64,6 +64,7 @@ should be set to the application host, not localhost.
 because it creates about 18 files that would take at least 18 hours to type.
 
 Files created:
+
 ![files_screenshot](./screenshots/devise_views.png?raw=true "Views")
 
 
