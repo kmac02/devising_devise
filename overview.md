@@ -97,6 +97,19 @@ _With that new migration file, you'll need to re-migrate._
 ![sign_up_screenshot](./screenshots/devise-sign-up.png?raw=true "views sign up")
 
 
+
+## Devise vs. has_secure_password
+### Refresh on has_secure_password
+```has_secure_password``` is very customizable and built right into rails, so maintaining a gem isn't an issue. However, as an application grows, more and more features often need to be added and these features are opportunities for vulnerabilities.
+
+![hsp_user_model](./screenshots/HSP_user_model.png?raw=true)
+
+![hsp_sessions_controller](./screenshots/HSP_sessions_controller.png?raw=true)
+
+![hsp_application_control](./screenshots/HSP_application_control.png?raw=true)
+
+Reviews on Devise are pretty mixed - some people seem to hate it and some love it. Overall, using Devise or `has_secure_password ` is really up to you and the scale of your project.
+
 | Pros | Cons |
 | ----- | ----- |
 | Built in methods and helpers like:| Too Helpful?
@@ -115,18 +128,6 @@ _With that new migration file, you'll need to re-migrate._
 
 *** in order to customize at the controller level, use
 ``` $ rails generate devise:contorollers [users] ```
-
-## Devise vs. has_secure_password
-### Refresh on has_secure_password
-```has_secure_password``` is very customizable and built right into rails, so maintaining a gem isn't an issue. However, as an application grows, more and more features often need to be added and these features are opportunities for vulnerabilities.
-
-![hsp_user_model](./screenshots/HSP_user_model.png?raw=true)
-
-![hsp_sessions_controller](./screenshots/HSP_sessions_controller.png?raw=true)
-
-![hsp_application_control](./screenshots/HSP_application_control.png?raw=true)
-
-Reviews on Devise are pretty mixed - some people seem to hate it and some love it. Overall, using Devise or `has_secure_password ` is really up to you and the scale of your project.
 
 # Resources
 * Wiki: [https://github.com/plataformatec/devise/wiki]
