@@ -120,9 +120,11 @@ _With that new migration file, you'll need to re-migrate._
 ### Refresh on has_secure_password
 ```has_secure_password``` is very customizable and built right into rails, so maintaining a gem isn't an issue. However, as an application grows, more and more features often need to be added and these features are opportunities for vulnerabilities.
 
-![hsp_user_model](./screenshots/HSP_user_model?raw=true)
-![hsp_sessions_controller](./screenshots/HSP_sessions_controller?raw=true)
-![hsp_application_control](./screenshots/HSP_application_control?raw=true)
+![hsp_user_model](./screenshots/HSP_user_model.png?raw=true)
+
+![hsp_sessions_controller](./screenshots/HSP_sessions_controller.png?raw=true)
+
+![hsp_application_control](./screenshots/HSP_application_control.png?raw=true)
 
 Reviews on Devise are pretty mixed - some people seem to hate it and some love it. Overall, using Devise or `has_secure_password ` is really up to you and the scale of your project.
 
