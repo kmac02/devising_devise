@@ -97,7 +97,7 @@ _With that new migration file, you'll need to re-migrate._
 ![sign_up_screenshot](./screenshots/devise-sign-up.png?raw=true "views sign up")
 
 
-| Pros: | Cons |
+| Pros | Cons |
 | ----- | ----- |
 | Built in methods and helpers like:| Too Helpful?
  before_action :authenticate_user!|
