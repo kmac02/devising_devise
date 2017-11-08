@@ -89,7 +89,7 @@ Afterwards, run your rails server and check the routes:
 
 Here's the code that was generated:
 
-![login_code](./screenshots.devise_login_code.png?raw=true)
+![login_code](./screenshots/devise_login_code.png?raw=true)
 
 Sign up page:
 
